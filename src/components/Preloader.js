@@ -4,8 +4,6 @@ import Main from './Main';
 
 
 function Preloader() {
-    const [data, setData] = useState([]);
-    const [loading, setLoading] = useState(undefined);
     const [completed, setCompleted] = useState(undefined);
 
     useEffect(() => {
@@ -13,7 +11,6 @@ function Preloader() {
             fetch('https://jsonplaceholder.typicode.com/posts/1')
             .then((response) => response.json())
             .then((json) => {
-                setData(json);
                 setCompleted(true);
                 // setTimeout(() => {
                 //     setCompleted(true)
