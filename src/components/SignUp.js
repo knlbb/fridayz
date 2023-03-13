@@ -2,7 +2,7 @@ import React from 'react'
 
 function SignUp() {
   return (
-    <div className='flex h-full m-16 grid grid-cols-3 items-center justify-center'>
+    <div className='flex h-[75vh] m-16 grid grid-cols-3 items-center justify-center'>
         <h1></h1>
         <div className="flex h-3/4 flex items-center justify-center flex-col rounded-2xl bg-white px-6 shadow-2xl sm:px-14">
             <h2 className="font-serif text-2xl font-semibold text-gray-700">What is your name?</h2>

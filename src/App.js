@@ -8,6 +8,7 @@ import Events from './components/Events';
 import Mission from './components/Mission';
 import Support from './components/Support';
 import NonExist from './components/NonExist';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path="/support" element={<Support/>} />
             <Route path="/*" element={<NonExist/>} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
