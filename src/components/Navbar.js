@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 function Navbar() {
   return (
-        <nav className='sticky top-5 bg-white p-2 rounded-xl mt-5 ml-5 mr-5 border-b relative border-gray-200'>
+        <nav className='sticky top-5 bg-white p-2 rounded-xl mt-5 ml-5 mr-5 border-b relative border-gray-200 fixed' style={{zIndex: 1}}>
             <div className="flex grid grid-cols-3 md:order-2">
                 <div className="flex items-center justify-center md:order-2">
                     <Link to="/sign-up">

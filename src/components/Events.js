@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom"
+
 
 function Events() {
   return (
@@ -45,7 +47,7 @@ function Events() {
               </div>
             </div>
             <div class="bg-blue-700 w-72 lg:w-5/6 m-auto mt-6 p-2 hover:bg-indigo-500 rounded-2xl text-white text-center shadow-xl shadow-bg-blue-700">
-              <button classs="lg:text-sm text-lg font-bold ">Register</button>
+              <Link to='/eventdetail'><button classs="lg:text-sm text-lg font-bold ">Details</button></Link>
             </div>
             {/* <div class="text-center m-auto mt-6 w-full h-16">
               <button class="text-gray-500 font-bold lg:text-sm hover:text-gray-900">Cancel Order</button>
